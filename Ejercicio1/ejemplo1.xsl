@@ -4,7 +4,7 @@
   <xsl:template match="listado">
     <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
       <fo:layout-master-set>
-        <fo:simple-page-master margin-right="1cm" margin-left="1cm" margin-bottom="1cm" margin-top="1cm" page-width="210mm" page-height="297mm" master-name="first">
+        <fo:simple-page-master margin-right="5cm" margin-left="5cm" margin-bottom="5cm" margin-top="5cm" page-width="210mm" page-height="297mm" master-name="first">
           
           <fo:region-body margin-top="1cm" margin-bottom="1cm"/>
           <fo:region-before extent="1cm"/>
